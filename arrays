@@ -1,0 +1,35 @@
+--- for creation of dyanamic array 
+int array[];
+intial begin  
+array = new[2];
+arra[0]=5;
+array[1]=6;
+
+for creation of a queue
+int array[$];
+array.push_back(12);
+array.push_back(23);
+array.push_back(45);
+// pusbh  ack add element from top
+
+array.push_front(9);
+// push front adds element from bottom
+or can use array.insert(1,45);
+1 - index, 45 is the value
+end
+
+--- creation fo an associative array
+int array[*];
+initial begin 
+int array[10]=100;
+int array[1000]=32;
+
+array.delete(10);
+end
+
+// now altho the max index is at 1000 only 3 elemnts are present in the associative array
+
+
+--- some operations ehiuch can be performed on arrays are 
+array.max(), array.min(), array.unique(), array.sum(), array.size()
+
